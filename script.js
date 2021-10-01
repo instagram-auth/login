@@ -5,3 +5,11 @@ function proceed() {
     window.alert(oye + "  " + hoye);
 
 }
+
+window.onload = () => {
+    window.alert("welcome")
+    console.log(window.location.href );
+    console.log(window.location.hostname );
+    console.log(window.location.pathname );
+    console.log(window.location.protocol); 
+}
